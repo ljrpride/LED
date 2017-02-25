@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\FWLIB\inc -I..\FWLIB\src -I..\USER 
+-I "D:\Program Files\ARM\RV31\INC" 
+-I "D:\Program Files\ARM\CMSIS\Include" 
+-I "D:\Program Files\ARM\Inc\ST\STM32F10x" 
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o "..\OUTPUT\usart1.o" --omf_browse "..\OUTPUT\usart1.crf" --depend "..\OUTPUT\usart1.d" "usart1.c"
