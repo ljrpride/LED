@@ -12,6 +12,11 @@
 #include "delay.h"
 #include "stdio.h"
 
+void LED()
+{
+
+}
+
 
 /*
  * º¯ÊıÃû£ºmain
